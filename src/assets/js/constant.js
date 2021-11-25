@@ -1,3 +1,9 @@
+/*
+ * @Author: zhuangzhuanglu
+ * @Date: 2021-11-12 16:11:28
+ * @LastEditors: zhuangzhuanglu
+ * @LastEditTime: 2021-11-18 15:36:28
+ */
 export const SINGER_KEY = '__singer__'
 export const FAVORITE_KEY = '__favorite__'
 export const ALBUM_KEY = '__album__'
@@ -6,7 +12,7 @@ export const SEARCH_KEY = '__search__'
 export const PLAY_KEY = '__play__'
 
 export const PLAY_MODE = {
-  sequence: 0,
-  loop: 1,
-  random: 2
+  sequence: 0, // 顺序播放
+  loop: 1, // 循环播放
+  random: 2 // 随机播放
 }

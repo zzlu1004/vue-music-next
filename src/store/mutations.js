@@ -1,3 +1,9 @@
+/*
+ * @Author: zhuangzhuanglu
+ * @Date: 2021-11-17 15:52:32
+ * @LastEditors: zhuangzhuanglu
+ * @LastEditTime: 2021-11-18 15:39:00
+ */
 const mutations = {
   setPlayingState(state, playing) {
     state.playing = playing

@@ -2,7 +2,7 @@
  * @Author: zhuangzhuanglu
  * @Date: 2021-11-11 14:45:26
  * @LastEditors: zhuangzhuanglu
- * @LastEditTime: 2021-11-17 16:14:54
+ * @LastEditTime: 2021-11-24 10:01:30
 -->
 <template>
   <m-header></m-header>
@@ -23,18 +23,18 @@
       </keep-alive>
     </transition>
   </router-view>
-  <!-- <player></player> -->
+  <player></player>
 </template>
 
 <script>
   import Header from '@/components/header/header'
   import Tab from '@/components/tab/tab'
-  // import Player from '@/components/player/player'
+  import Player from '@/components/player/player'
   import { mapState } from 'vuex'
 
   export default {
     components: {
-      // Player,
+      Player,
       MHeader: Header,
       Tab
     },

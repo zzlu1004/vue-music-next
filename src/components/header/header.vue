@@ -2,15 +2,15 @@
  * @Author: zhuangzhuanglu
  * @Date: 2021-11-11 15:25:50
  * @LastEditors: zhuangzhuanglu
- * @LastEditTime: 2021-11-11 15:57:12
+ * @LastEditTime: 2021-11-25 14:41:08
 -->
 <template>
   <div class="header">
     <span class="icon"></span>
     <h1 class="text">Chicken Music</h1>
-    <!-- <router-link class="mine" to="/user">
+    <router-link class="mine" to="/user">
       <i class="icon-mine"></i>
-    </router-link> -->
+    </router-link>
   </div>
 </template>
 

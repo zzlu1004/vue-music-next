@@ -1,6 +1,13 @@
+/*
+ * @Author: zhuangzhuanglu
+ * @Date: 2021-11-17 15:52:32
+ * @LastEditors: zhuangzhuanglu
+ * @LastEditTime: 2021-11-18 15:57:11
+ */
 import { PLAY_MODE } from '@/assets/js/constant'
 import { shuffle } from '@/assets/js/util'
 
+// 选择播放
 export function selectPlay({ commit }, { list, index }) {
   commit('setPlayMode', PLAY_MODE.sequence)
   commit('setSequenceList', list)
@@ -9,7 +16,7 @@ export function selectPlay({ commit }, { list, index }) {
   commit('setPlaylist', list)
   commit('setCurrentIndex', index)
 }
-
+// 随机播放
 export function randomPlay({ commit }, list) {
   commit('setPlayMode', PLAY_MODE.random)
   commit('setSequenceList', list)
